@@ -1,0 +1,480 @@
+html {
+    font-size: 625%;
+    min-height: unset;
+}
+
+body {
+    background: #fff;
+    width: 100%;
+    overflow-x: hidden;
+    min-height: unset;
+    margin: 0;
+    padding: 0; /* 可以一併加上 */
+}
+
+div {
+    background-size: 100%;
+}
+
+#main {
+    width: 100%;
+    height: 100vh;
+    min-width: 1400px;
+    min-height: 979.33px;
+}
+
+.stage1 {
+}
+
+.stage {
+    height: 100%;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+}
+
+.bg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url(https://www.racingmaster.game/pc/zt/20230823112811/img/stage1_bg_67_a7c63a5.png);
+    /*background-size: contain;*/
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    bottom: 2.7rem;
+    right: 0;
+}
+
+.stage1 .logo {
+    position: absolute;
+    width: 3.75rem;
+    height: 1.44rem;
+    top: 0;
+    left: 0;
+    background-image: url(https://webinput.game.easebar.com/img/racingmaster/logo2.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    filter: brightness(0);
+}
+
+.stage1 .page {
+    position: absolute;
+    width: 10rem;
+    height: 6.1rem;
+    /*bottom: 4.1rem;*/
+    bottom: 5.2rem;
+    left: .8rem;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -ms-flex-direction: column;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-pack: distribute;
+    -webkit-justify-content: space-around;
+    justify-content: space-around;
+    -ms-flex-align: flex-start;
+    -webkit-align-items: flex-start;
+    align-items: flex-start;
+}
+
+.stage1 .page .title {
+    position: relative;
+    text-align: left;
+    font-weight: 700;
+    width: 10rem;
+    top: 0rem;
+    left: 0rem;
+    color: RGB(0, 0, 0);
+    font-size: 1rem;
+    line-height: 1.1rem;
+    white-space: nowrap;
+}
+
+.stage1 .page .title .red {
+    color: RGB(216, 33, 42);
+}
+
+.stage1 .page .uid_input_mc {
+    position: relative;
+    width: 5.4rem;
+    height: .6rem;
+}
+
+.stage1 .page .uid_input_mc .input_bg {
+    position: absolute;
+    width: 5.4rem;
+    height: .6rem;
+    top: 0rem;
+    left: 0rem;
+    background-image: url(https://www.racingmaster.game/pc/zt/20230823112811/img/stage1_page_uid_input_mc_input_bg_47_68018ff.png);
+}
+
+.stage1 .page .uid_input_mc .uid_input {
+    position: absolute;
+    width: 5.4rem;
+    top: 0;
+    left: 0;
+    text-align: left;
+    text-indent: .2rem;
+    padding: .21rem 0;
+    color: RGB(0, 0, 0);
+    font-size: .18rem;
+    line-height: .18rem;
+}
+
+.stage1 .page .auth_input_mc {
+    position: relative;
+    width: 5.4rem;
+    height: .6rem;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -ms-flex-direction: row;
+    -webkit-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-pack: justify;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+}
+
+.stage1 .page .auth_input_mc .input_bg {
+    position: relative;
+    width: 3rem;
+    height: .6rem;
+    top: 0rem;
+    left: 0rem;
+    background-image: url(https://www.racingmaster.game/pc/zt/20230823112811/img/stage1_page_uid_input_mc_input_bg_47_68018ff.png);
+}
+
+.stage1 .page .auth_input_mc .auth_input {
+    position: absolute;
+    width: 3rem;
+    top: 0;
+    left: 0;
+    text-align: left;
+    text-indent: .2rem;
+    padding: .21rem 0;
+    color: RGB(0, 0, 0);
+    font-size: .18rem;
+    line-height: .18rem;
+}
+
+.stage1 .page .code_pic img {
+    position: relative;
+    height: .6rem;
+    margin-top: 0;
+}
+
+.stage1 .page .code_pic {
+    position: relative;
+    height: .6rem;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.stage1 .page .how_button {
+    position: absolute;
+    height: .18rem;
+    left: 5.6rem;
+    top: 2.7rem;
+    cursor: pointer;
+    -ms-flex-item-align: end;
+    -webkit-align-self: flex-end;
+    align-self: flex-end;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -ms-flex-direction: row;
+    -webkit-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-pack: start;
+    -webkit-justify-content: flex-start;
+    justify-content: flex-start;
+}
+
+.stage1 .page .how_button .icon {
+    position: relative;
+    margin-right: .1rem;
+    width: .25rem;
+    height: .18rem;
+    background-image: url(https://www.racingmaster.game/pc/zt/20230823112811/img/stage1_page_how_button_icon_94_8b82249.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.stage1 .page .how_button .how_txt {
+    position: relative;
+    white-space: nowrap;
+    top: 0rem;
+    color: RGB(0, 0, 0);
+    font-size: .18rem;
+    line-height: .18rem;
+}
+
+.stage1 .page .msg {
+    position: relative;
+    width: 5.4rem;
+    width: 3.16rem;
+    height: .24rem;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -ms-flex-direction: row;
+    -webkit-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-pack: justify;
+    -webkit-justify-content: flex-start;
+    justify-content: flex-start;
+}
+
+.stage1 .page .error_txt {
+    position: absolute;
+    white-space: nowrap;
+    width: 2.3rem;
+    top: 4.75rem;
+    left: .01rem;
+    color: RGB(216, 33, 42);
+    font-size: .3rem;
+    line-height: .3rem;
+}
+
+.stage1 .page .code_input_mc {
+    position: relative;
+    width: 5.4rem;
+    height: .6rem;
+}
+
+.stage1 .page .code_input_mc .input_bg {
+    position: absolute;
+    width: 5.4rem;
+    height: .6rem;
+    top: 0rem;
+    left: 0rem;
+    background-image: url(https://www.racingmaster.game/pc/zt/20230823112811/img/stage1_page_uid_input_mc_input_bg_47_68018ff.png);
+}
+
+.stage1 .page .code_input_mc .code_input {
+    position: absolute;
+    width: 5.4rem;
+    top: 0;
+    left: 0;
+    text-align: left;
+    text-indent: .2rem;
+    padding: .21rem 0;
+    color: RGB(0, 0, 0);
+    font-size: .18rem;
+    line-height: .18rem;
+}
+
+.stage1 .page .post_button {
+    position: relative;
+    width: 5.4rem;
+    height: .6rem;
+    cursor: pointer;
+}
+
+.stage1 .page .post_button .button_bg {
+    position: absolute;
+    width: 5.4rem;
+    height: .6rem;
+    top: 0rem;
+    left: 0rem;
+    background-image: url(https://www.racingmaster.game/pc/zt/20230823112811/img/stage1_page_post_button_button_bg_1_31d053d.png);
+    background-repeat: round;
+}
+
+.stage1 .page .post_button .txt {
+    position: absolute;
+    white-space: nowrap;
+    width: 5.4rem;
+    top: 0rem;
+    left: 0;
+    text-align: center;
+    padding: .18rem 0;
+    color: RGB(255, 255, 255);
+    font-size: .24rem;
+    line-height: .24rem;
+}
+
+.stage1 .page .post_button {
+    position: relative;
+    width: 5.4rem;
+    height: .6rem;
+    cursor: pointer;
+}
+
+.container-all {
+    position: absolute;
+    bottom: 0;
+    background-color: #000;
+    width: 100%;
+    bottom: 1.2rem;
+}
+
+.footer {
+    padding: .1rem 0;
+    margin: 0 auto;
+    width: 100%;
+    height: 1.3rem;
+    font-size: 0;
+    background-color: #000;
+}
+
+.footer .cenbox {
+    position: relative;
+    width: 14.5rem;
+    margin: 0rem auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    height: 100%;
+}
+
+.footer .footer_logo {
+    width: 1.17rem;
+    height: .42rem;
+    background: url(https://test.nie.163.com/test_cdn/racingmaster/pc/gw/20230825160545//img/nie-logo_ccbb86d.png) no-repeat center center;
+    background-size: 100%;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: .24rem;
+}
+
+.footer .dragon {
+    width: .99rem;
+    margin-right: .28rem;
+}
+
+.footer img {
+    object-fit: contain;
+    object-position: center;
+}
+
+.footer img, .footer .art1, .footer .art2 {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.footer .img15 {
+    width: .43rem;
+    margin-right: .28rem;
+}
+
+.footer .art1 {
+    margin-right: .4rem;
+}
+
+.footer .art1, .footer .art2 {
+    line-height: .18rem;
+    font-size: .12rem;
+    color: #fff;
+}
+
+.footer .art1 .underline {
+    color: #fff;
+    text-decoration: underline;
+    font-size: .12rem;
+    white-space: nowrap;
+}
+
+.msg_tips {
+}
+
+.tips_mc .mc {
+    left: 0 !important;
+    right: 0;
+    top: 0 !important;
+    bottom: 0;
+    margin: auto;
+    -webkit-transform: scale(0.7);
+    transform: scale(0.7);
+}
+
+.msg_tips .mc {
+    position: absolute;
+    width: 8.92rem;
+    height: 5rem;
+    top: 6.31rem;
+    left: 1.16rem;
+}
+
+.msg_tips .mc .pic {
+    position: absolute;
+    width: 8.92rem;
+    height: 5rem;
+    top: 0rem;
+    left: 0rem;
+    background-image: url(https://www.racingmaster.game/pc/zt/20230823112811/img/msg_tips_mc_pic_53_c8be587.png);
+}
+
+.msg_tips .mc .title {
+    position: absolute;
+    text-align: center;
+    width: 7rem;
+    top: .5rem;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    color: RGB(255, 255, 255);
+    font-size: .53rem;
+    line-height: .53rem;
+}
+
+.msg_tips .mc .txt {
+    position: absolute;
+    width: 7rem;
+    top: 2.1rem;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    color: #000;
+    font-size: .36rem;
+    line-height: .6rem;
+    height: 2rem;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -ms-flex-direction: column;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-line-pack: center;
+    -webkit-align-content: center;
+    align-content: center;
+    -ms-flex-pack: distribute;
+    -webkit-justify-content: space-around;
+    justify-content: space-around;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    text-align: center;
+}
+
+.stage1 .page .msg .name_txt {
+    position: relative;
+    color: RGB(0, 0, 0);
+    font-size: .18rem;
+    line-height: .18rem;
+    margin-right: .2rem;
+}
+
+.how_tips .mc .txt p img {
+    width: 100%;
+}
+
+.how_tips .mc .txt p {
+    margin-bottom: .2rem;
+}
+
+.hidden {
+    display: none;
+}
+
+
+
+
+
+
+
+
